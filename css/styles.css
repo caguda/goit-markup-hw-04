@@ -166,8 +166,17 @@ address {
 
 /* first section */
 .first-section {
-  background-color: #2e2f42;
+  background-color: rgba(46, 47, 66, 0.7);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px, 1440px;
 }
 
 .first-header {
