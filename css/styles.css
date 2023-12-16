@@ -428,7 +428,7 @@ p,
 }
 
 /* Hw4 */
-.footer-con {
+.footer-section {
   display: flex;
   align-items: baseline;
 }
