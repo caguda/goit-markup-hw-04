@@ -178,7 +178,7 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px, 1440px;
+  max-width: 1440px, auto;
 }
 
 .first-header {
@@ -514,16 +514,20 @@ p,
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.work-cards {
+/* .work-cards {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+} */
+
+.work-cards {
+  display: block;
 }
 
-.work-cards-con h2 {
+.work-cards h2 {
   list-style: none;
   font-weight: 500;
   font-size: 20px;
@@ -551,7 +555,6 @@ p,
 
 .work-items {
   flex-basis: calc((100% - 48px) / 3);
-  display: block;
 }
 
 .work-info {
