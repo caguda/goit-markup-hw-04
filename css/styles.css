@@ -409,8 +409,6 @@ p,
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-logo {
@@ -430,6 +428,10 @@ p,
 }
 
 /* Hw4 */
+.footer-section > .container {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-wrap {
   margin-right: 120px;
