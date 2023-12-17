@@ -178,7 +178,7 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px. 1440px;
+  max-width: 1440px, 1440px;
 }
 
 .first-header {
@@ -551,6 +551,7 @@ p,
 
 .work-items {
   flex-basis: calc((100% - 48px) / 3);
+  display: block;
 }
 
 .work-info {
